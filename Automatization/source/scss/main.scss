@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit
+}
+
+body {
+  margin: 0 auto;
+  font-weight: 400;
+  background-color: $colorBackground;
+}
+
+a {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  color: $fontColor;
+  text-decoration: none;
+}

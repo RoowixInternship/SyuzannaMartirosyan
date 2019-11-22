@@ -1,0 +1,14 @@
+.front-page {
+  padding-bottom: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.front-page__title {
+  width: 353px;
+  font-size: 79px;
+  line-height: 70px;
+  font-family: $fontHeader;
+}
+
+.front-page__subtitle {}

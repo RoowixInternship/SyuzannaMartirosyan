@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url("../source/fonts/PTSans-Regular.woff2") format("woff2");
+}
+/* pt-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url("source/fonts/PTSans-Bold.woff2") format("woff2");
+}
+/* marck-script-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marck Script'), local('MarckScript-Regular'), url("source/fonts/MarckScript-Regular.woff2") format("woff2");
+}
+/* playfair-display-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url("source/fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+}
+/* playfair-display-700italic - latin_cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'), url("source/fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2");
+}
+/* pt-sans-italic - latin_cyrillic */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Sans Italic'), local('PTSans-Italic'), url("source/fonts/PTSans-Italic.woff2") format("woff2");
+}
