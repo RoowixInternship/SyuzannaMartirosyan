@@ -1,0 +1,76 @@
+.front-page {
+  background-image: url(../img/invalid-name.png);
+  background-repeat: no-repeat;
+  padding-bottom: 260px;
+  background-position-x: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.front-page__title {
+  //width: 353px;
+  font-size: 79px;
+  font-weight: bold;
+  line-height: 70px;
+  font-family: $fontHeader;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+  margin-left: 73px;
+  margin-top: 164px;
+}
+
+.front-page__subtitle {
+  font-family: $fontSubheader;
+  font-size: 41px;
+  font-weight: normal;
+  margin: 10px 0 40px 73px;
+  color: #32313d;
+}
+
+.front-page__button {
+  margin-left: 73px;
+  width: 226px;
+}
+
+.front-page__info {
+  display: flex;
+  order: 1;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 73px;
+  max-width: 480px;
+}
+
+.front-page__info-items {
+  justify-content: space-between;
+  list-style-type: none;
+  list-style: none;
+}
+
+.front-page__info-ingredients {
+  font-size: 14px;
+  font-family: 'PTSans-Regular', 'Arial', serif;
+  color: #000000;
+  padding: 7px;
+  padding-left: 70px;
+  max-width: 147px;
+  background-image: url(../img/leaf.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.front-page__info-ingredients:first-child {
+    margin-right: 140px;
+}
+
+.front-page__info-delivery {
+  font-size: 14px;
+  font-family: 'PTSans-Regular', 'Arial', serif;
+  color: #000000;
+  padding: 7px;
+  padding-left: 70px;
+  max-width: 147px;
+  background-image: url(../img/gist.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}

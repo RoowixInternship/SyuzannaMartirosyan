@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  background: #fbebea;
+  max-width: 1366px;
+}
+
+.container {
+  padding: 105px 72px 0;
+}
+
+.individual-order__header {
+  margin: 0 0 16px;
+  font-family: $fontHeader;
+  font-size: 40px;
+  line-height: 66px;
+  text-align: center;
+}
+
+.individual-order__subheader {
+  margin: 0 0 46px;
+  font-family: 'Marck Script', cursive;
+  font-size: 35px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.individual-order__step {
+  background: $projectWhite;
+  margin-bottom: 35px;
+}
+/*/
+////FILLING BLOCK/////*/
+
+
+/*SLIDER BLOCK*/
+
+// .slider__item:not(:first-child) { display: none; }
+/*BUTTON BLOCK*/
