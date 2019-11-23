@@ -1,0 +1,131 @@
+.cakes {
+  padding-top: 20px;
+  background-color: #fbebea;
+}
+
+.cakes__title {
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 66px;
+}
+
+.cakes__list {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cakes__column {
+  width: 100%;
+}
+
+.cakes__item {
+  position: relative;
+  min-height: 120px;
+  margin-bottom: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-position: center bottom;
+}
+
+.cakes__item--big {
+    max-width: 696px;
+    min-height: 652px;
+    margin-right: 43px;
+}
+
+.cakes__item::before {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.cakes__item:hover {
+  box-shadow: 0 10px 12.74px 0.26px rgba(163, 6, 60, 0.12);
+}
+
+.cakes__item:hover::before {
+  display: block;
+}
+
+.cakes__item--classic {
+  background-image: url("../img/classic.png");
+}
+
+.cakes__item--mousse {
+  background-image: url("../img/muss.png");
+}
+
+.cakes__item--wedding {
+  background-image: url("../img/wedding.png");
+}
+
+.cakes__item--man {
+  background-image: url("../img/mens.png");
+}
+
+.cakes__item--woman {
+  background-image: url("../img/womens.png");
+}
+
+.cakes__item--children {
+  background-image: url("../img/kids.png");
+  background-color: transparent;
+}
+
+.cakes__category,
+.cakes__counter {
+  font-size: 24px;
+  font-family: 'PTSans-Regular', 'Arial' sans-serif;
+  font-weight: 400;
+  color: #2d2829;
+}
+
+.cakes__counter {
+  font-size: 20px;
+}
+
+.cakes__text {
+  display: none;
+}
+
+.cakes__link {
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 304px;
+  min-width: 483px;
+  box-sizing: border-box;
+
+}
+
+.cakes__link--big {
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  width: 695px;
+  height: 652px;
+  box-sizing: border-box;
+}
+
+.cakes__item--big:nth-last-of-type(1) {
+    margin-right: 0;
+    margin-left: 42px;
+}

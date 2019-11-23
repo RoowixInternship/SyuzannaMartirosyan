@@ -1,0 +1,45 @@
+.sizes {
+  padding: 74px 123px 93px 82px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sizes__header {
+  margin: 0;
+  width: 133px;
+  font-family: $fontHeader;
+  font-size: 27px;
+  line-height: 30px;
+  color: $projectPink;
+}
+
+.sizes__header-order {
+  display: block;
+  font-size: 58px;
+  line-height: 58px;
+}
+
+.sizes__list {
+  padding: 0 100px;
+  justify-content: center;
+  padding-bottom: 68px;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.sizes__item {
+  
+  align-items: flex-start;
+  flex-shrink: 3;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+.sizes__item-description {
+  min-width: 126px;
+  margin-top: 35px;
+}
