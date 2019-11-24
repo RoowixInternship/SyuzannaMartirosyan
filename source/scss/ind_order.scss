@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  padding: 105px 72px 0;
+  padding: 36px 72px 0;
 }
 
 .individual-order__header {
@@ -17,7 +17,7 @@ body {
 }
 
 .individual-order__subheader {
-  margin: 0 0 46px;
+  margin: 0 0 35px;
   font-family: 'Marck Script', cursive;
   font-size: 35px;
   line-height: 37px;
@@ -28,11 +28,41 @@ body {
   background: $projectWhite;
   margin-bottom: 35px;
 }
+
+.individual-order__fieldset {
+  display: flex;
+  justify-content: space-between;
+  background-color: $projectWhite;
+}
+
+.individual-order__fieldset-header {
+  margin-bottom: 25px;
+  margin-bottom: 35px;
+  padding: 0;
+  line-height: 26px;
+  font-size: 27px;
+  font-family: $fontHeader;
+}
+
+.individual-order__fieldset-input {
+  display: block;
+  margin-top: 21px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: solid 1px #c1b0af;
+}
+
+.individual-order__fieldset-item {
+  display: flex;
+  width: 805px;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 /*/
 ////FILLING BLOCK/////*/
-
-
 /*SLIDER BLOCK*/
-
 // .slider__item:not(:first-child) { display: none; }
 /*BUTTON BLOCK*/
