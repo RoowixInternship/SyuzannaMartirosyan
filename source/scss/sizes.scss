@@ -1,16 +1,21 @@
 .sizes {
-  padding: 74px 123px 93px 82px;
-  display: flex;
-  flex-direction: row;
+  padding: 75px 158px 140px;    
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+
 }
 
 .sizes__header {
-  margin: 0;
-  width: 133px;
   font-family: $fontHeader;
+  color: $projectPink;
+  top: 54px;
+  left: 82px;
+  width: 140px;
   font-size: 27px;
   line-height: 30px;
-  color: $projectPink;
+  position: absolute;
 }
 
 .sizes__header-order {
@@ -20,17 +25,11 @@
 }
 
 .sizes__list {
-  padding: 0 100px;
-  justify-content: center;
-  padding-bottom: 68px;
-  align-items: flex-end;
   display: flex;
-  flex-direction: row;
-  margin-left: 15px;
+  justify-content: space-between;
 }
 
 .sizes__item {
-  
   align-items: flex-start;
   flex-shrink: 3;
   background: transparent;
